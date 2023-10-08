@@ -1,0 +1,126 @@
+body {
+  background-color: #cfe4db;
+  color: #333;
+  width: 100%;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #41a85f;
+  color: #fff;
+  font-size: larger;
+  text-align: center;
+  text-shadow: 5px 5px 5px #333;
+  background-image: url(assets/background_rusa.jpeg);
+  box-shadow: 0px 0px 20px 3px #7c8f8b;
+}
+
+nav {
+  background-color: #637370;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  float: left;
+  width: 70px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: whitesmoke;
+  color: black;
+  display: block;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  height: 820px;
+  padding: 0.1px;
+  background: #7c8f8b;
+  color: #333;
+  box-shadow: 0px 0px 20px 5px #7c8f8b;
+}
+
+.kiri {
+  width: 80%;
+  float: left;
+  margin: auto;
+}
+
+.kanan {
+  width: 20%;
+  float: left;
+  margin: auto;
+}
+
+.border {
+  background: #8da38e;
+  border: 2px solid #637370;
+  margin-top: 1pc;
+  padding-bottom: 1pc;
+  padding-left: 2pc;
+  padding-right: 2pc;
+}
+
+#btn{
+    background-color: #637370;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+#btn:hover{
+    background-color: #333;
+}
+
+.tunjuk {
+  padding: 5px;
+}
+
+.tunjuk:hover {
+  color: #333;
+  background-color: whitesmoke;
+  padding: 5px;
+}
+
+#undecor {
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#undecor:hover {
+  color: #333;
+}
+
+.jarak {
+  padding: 0 2pc;
+}
+
+footer {
+  padding: 5px;
+  margin-top: 20px;
+  color: whitesmoke;
+  background-color: #8da38e;
+  text-align: center;
+  font-weight: bold;
+}
